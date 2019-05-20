@@ -19,6 +19,16 @@
 		04B89B1E22902751005B63ED /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B1D22902751005B63ED /* TabBarViewController.swift */; };
 		04B89B2C22902D0B005B63ED /* UIBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B2B22902D0B005B63ED /* UIBaseViewController.swift */; };
 		04B89B2E2291B750005B63ED /* NavigationBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B2D2291B750005B63ED /* NavigationBaseController.swift */; };
+		04B89B452292DD43005B63ED /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B372292DD43005B63ED /* UCollectionViewAlignedLayout.swift */; };
+		04B89B462292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B382292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift */; };
+		04B89B472292DD43005B63ED /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B3A2292DD43005B63ED /* URefresh.swift */; };
+		04B89B482292DD43005B63ED /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B3C2292DD43005B63ED /* UEmptyDataSet.swift */; };
+		04B89B492292DD43005B63ED /* UHairPowder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B3E2292DD43005B63ED /* UHairPowder.swift */; };
+		04B89B4A2292DD43005B63ED /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B402292DD43005B63ED /* ParallaxHeaderMode.swift */; };
+		04B89B4B2292DD43005B63ED /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B412292DD43005B63ED /* UIScrollView+ParallaxHeader.swift */; };
+		04B89B4C2292DD43005B63ED /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B422292DD43005B63ED /* ParallaxHeader.swift */; };
+		04B89B4D2292DD43005B63ED /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B442292DD43005B63ED /* UNoticeBar.swift */; };
+		04B89B512292FE24005B63ED /* UAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89B502292FE24005B63ED /* UAPI.swift */; };
 		24EE1527AA93FFF745DA3A16 /* libPods-DingdingXiu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE71F20B7CABA49DB536FCE /* libPods-DingdingXiu.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +70,16 @@
 		04B89B1D22902751005B63ED /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		04B89B2B22902D0B005B63ED /* UIBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBaseViewController.swift; sourceTree = "<group>"; };
 		04B89B2D2291B750005B63ED /* NavigationBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBaseController.swift; sourceTree = "<group>"; };
+		04B89B372292DD43005B63ED /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		04B89B382292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
+		04B89B3A2292DD43005B63ED /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		04B89B3C2292DD43005B63ED /* UEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
+		04B89B3E2292DD43005B63ED /* UHairPowder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UHairPowder.swift; sourceTree = "<group>"; };
+		04B89B402292DD43005B63ED /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		04B89B412292DD43005B63ED /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		04B89B422292DD43005B63ED /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		04B89B442292DD43005B63ED /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
+		04B89B502292FE24005B63ED /* UAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UAPI.swift; sourceTree = "<group>"; };
 		6BE71F20B7CABA49DB536FCE /* libPods-DingdingXiu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DingdingXiu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8120384CEB42F212776A35 /* Pods-DingdingXiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DingdingXiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DingdingXiu/Pods-DingdingXiu.debug.xcconfig"; sourceTree = "<group>"; };
 		DBEB39C19E86CEF760837EDD /* Pods-DingdingXiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DingdingXiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DingdingXiu/Pods-DingdingXiu.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +209,7 @@
 		04B89B2322902BBA005B63ED /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				04B89B352292DD43005B63ED /* Component */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -243,8 +264,73 @@
 		04B89B2A22902C67005B63ED /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				04B89B502292FE24005B63ED /* UAPI.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		04B89B352292DD43005B63ED /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B362292DD43005B63ED /* CollectionViewLayout */,
+				04B89B392292DD43005B63ED /* Refresh */,
+				04B89B3B2292DD43005B63ED /* EmptyDataSet */,
+				04B89B3D2292DD43005B63ED /* HairPowder */,
+				04B89B3F2292DD43005B63ED /* ParallaxHeader */,
+				04B89B432292DD43005B63ED /* NoticeBar */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		04B89B362292DD43005B63ED /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B372292DD43005B63ED /* UCollectionViewAlignedLayout.swift */,
+				04B89B382292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		04B89B392292DD43005B63ED /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B3A2292DD43005B63ED /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		04B89B3B2292DD43005B63ED /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B3C2292DD43005B63ED /* UEmptyDataSet.swift */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		04B89B3D2292DD43005B63ED /* HairPowder */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B3E2292DD43005B63ED /* UHairPowder.swift */,
+			);
+			path = HairPowder;
+			sourceTree = "<group>";
+		};
+		04B89B3F2292DD43005B63ED /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B402292DD43005B63ED /* ParallaxHeaderMode.swift */,
+				04B89B412292DD43005B63ED /* UIScrollView+ParallaxHeader.swift */,
+				04B89B422292DD43005B63ED /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		04B89B432292DD43005B63ED /* NoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				04B89B442292DD43005B63ED /* UNoticeBar.swift */,
+			);
+			path = NoticeBar;
 			sourceTree = "<group>";
 		};
 		49320323C2E64967F9763A17 /* Pods */ = {
@@ -451,10 +537,20 @@
 				04B89B2E2291B750005B63ED /* NavigationBaseController.swift in Sources */,
 				04B89AE8228EF40B005B63ED /* ViewController.swift in Sources */,
 				04B89B17229015EB005B63ED /* BaseViewController.swift in Sources */,
+				04B89B4B2292DD43005B63ED /* UIScrollView+ParallaxHeader.swift in Sources */,
+				04B89B452292DD43005B63ED /* UCollectionViewAlignedLayout.swift in Sources */,
+				04B89B482292DD43005B63ED /* UEmptyDataSet.swift in Sources */,
+				04B89B462292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				04B89B492292DD43005B63ED /* UHairPowder.swift in Sources */,
+				04B89B472292DD43005B63ED /* URefresh.swift in Sources */,
 				04B89B1B2290178A005B63ED /* ViewController2.m in Sources */,
 				04B89B2C22902D0B005B63ED /* UIBaseViewController.swift in Sources */,
 				04B89AE6228EF40B005B63ED /* AppDelegate.swift in Sources */,
+				04B89B512292FE24005B63ED /* UAPI.swift in Sources */,
 				04B89B1E22902751005B63ED /* TabBarViewController.swift in Sources */,
+				04B89B4C2292DD43005B63ED /* ParallaxHeader.swift in Sources */,
+				04B89B4A2292DD43005B63ED /* ParallaxHeaderMode.swift in Sources */,
+				04B89B4D2292DD43005B63ED /* UNoticeBar.swift in Sources */,
 				04B89B14228F13D8005B63ED /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
