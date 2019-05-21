@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426F4E722942FFB0048AA0F /* URankTCell.swift */; };
 		04B89AE6228EF40B005B63ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE5228EF40B005B63ED /* AppDelegate.swift */; };
 		04B89AE8228EF40B005B63ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE7228EF40B005B63ED /* ViewController.swift */; };
 		04B89AED228EF40C005B63ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B89AEC228EF40C005B63ED /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0426F4E722942FFB0048AA0F /* URankTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankTCell.swift; sourceTree = "<group>"; };
 		04B89AE2228EF40B005B63ED /* DingdingXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingdingXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B89AE5228EF40B005B63ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B89AE7228EF40B005B63ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				DF6B8F0D2294058D008E2698 /* UComicCHead.swift */,
+				0426F4E722942FFB0048AA0F /* URankTCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				DF6B8F002293F3A5008E2698 /* DispatchQueueExtension.swift in Sources */,
 				04B89B1E22902751005B63ED /* TabBarViewController.swift in Sources */,
 				DF6B8EFA2293F3A5008E2698 /* ArrayExtensions.swift in Sources */,
+				0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */,
 				04B89B4C2292DD43005B63ED /* ParallaxHeader.swift in Sources */,
 				04B89B4A2292DD43005B63ED /* ParallaxHeaderMode.swift in Sources */,
 				DF6B8EFC2293F3A5008E2698 /* UIViewExtension.swift in Sources */,
