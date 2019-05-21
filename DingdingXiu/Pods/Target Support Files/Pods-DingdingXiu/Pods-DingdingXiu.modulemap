@@ -1,0 +1,6 @@
+module Pods_DingdingXiu {
+  umbrella header "Pods-DingdingXiu-umbrella.h"
+
+  export *
+  module * { export * }
+}
