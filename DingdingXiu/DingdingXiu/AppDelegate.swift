@@ -45,7 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configBase()
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white;
-//        window?.rootViewController = ViewController2
+        
+        window?.rootViewController = USubscibeListViewController()
 
         window?.makeKeyAndVisible()
 

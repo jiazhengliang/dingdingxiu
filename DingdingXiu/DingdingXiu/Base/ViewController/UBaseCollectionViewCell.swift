@@ -7,10 +7,11 @@
 //
 
 import UIKit
-
-class UBaseCollectionViewCell: UICollectionViewCell {
+import Reusable
+class UBaseCollectionViewCell: UICollectionViewCell ,Reusable{
     override init(frame: CGRect) {
         super.init(frame: frame)
+         configUI()
     }
     
     required init?(coder aDecoder: NSCoder) {
