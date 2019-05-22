@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426F4E722942FFB0048AA0F /* URankTCell.swift */; };
+		0426FA8622958CF4008A7CE5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA8522958CF4008A7CE5 /* LoginController.swift */; };
 		04B89AE6228EF40B005B63ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE5228EF40B005B63ED /* AppDelegate.swift */; };
 		04B89AE8228EF40B005B63ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE7228EF40B005B63ED /* ViewController.swift */; };
 		04B89AED228EF40C005B63ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B89AEC228EF40C005B63ED /* Assets.xcassets */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		0426F4E722942FFB0048AA0F /* URankTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankTCell.swift; sourceTree = "<group>"; };
+		0426FA8522958CF4008A7CE5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		04B89AE2228EF40B005B63ED /* DingdingXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingdingXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B89AE5228EF40B005B63ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B89AE7228EF40B005B63ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0426FA8322958C60008A7CE5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0426FA8422958C71008A7CE5 /* controll */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0426FA8422958C71008A7CE5 /* controll */ = {
+			isa = PBXGroup;
+			children = (
+				0426FA8522958CF4008A7CE5 /* LoginController.swift */,
+			);
+			path = controll;
+			sourceTree = "<group>";
+		};
 		04B89AD9228EF40B005B63ED = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +285,7 @@
 		04B89B2422902BCE005B63ED /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0426FA8322958C60008A7CE5 /* Login */,
 				04B89B2522902BE6005B63ED /* Home(主模块) */,
 			);
 			path = Main;
@@ -634,6 +653,7 @@
 				04B89B512292FE24005B63ED /* UAPI.swift in Sources */,
 				DF6B8F002293F3A5008E2698 /* DispatchQueueExtension.swift in Sources */,
 				04B89B1E22902751005B63ED /* TabBarViewController.swift in Sources */,
+				0426FA8622958CF4008A7CE5 /* LoginController.swift in Sources */,
 				DF6B8EFA2293F3A5008E2698 /* ArrayExtensions.swift in Sources */,
 				0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */,
 				04B89B4C2292DD43005B63ED /* ParallaxHeader.swift in Sources */,
