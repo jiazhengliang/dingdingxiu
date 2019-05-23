@@ -11,6 +11,6 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <MJRefresh/MJRefresh.h>
 #import <HMSegmentedControl.h>
-
+#import <SVProgressHUD.h>
 
 #endif /* DingdingXiu_Bridging_Header_h */

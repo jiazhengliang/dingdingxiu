@@ -23,8 +23,10 @@ PODS:
   - SnapKit (4.2.0)
   - SnapKitExtend (1.0.7):
     - SnapKit
+  - SVProgressHUD (2.2.5)
   - Then (2.4.0)
   - UINavigation-SXFixSpace-Swift (1.2.1)
+  - XHToastSwift (1.2.0)
 
 DEPENDENCIES:
   - EmptyDataSet-Swift
@@ -38,8 +40,10 @@ DEPENDENCIES:
   - Moya
   - Reusable
   - SnapKitExtend
+  - SVProgressHUD
   - Then
   - UINavigation-SXFixSpace-Swift
+  - XHToastSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -57,8 +61,10 @@ SPEC REPOS:
     - Reusable
     - SnapKit
     - SnapKitExtend
+    - SVProgressHUD
     - Then
     - UINavigation-SXFixSpace-Swift
+    - XHToastSwift
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -75,9 +81,11 @@ SPEC CHECKSUMS:
   Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SnapKitExtend: 00ee4db6d1f80bee01a1e75745f2a6ae695ba662
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
   UINavigation-SXFixSpace-Swift: 648140526154fdbfdcc6f55a6ac030b1f603a176
+  XHToastSwift: 002de3bf4143fc3286d9cb2e4585b681e175e061
 
-PODFILE CHECKSUM: 5416e364de2aa96547e1094d4ac20e1fb8c82804
+PODFILE CHECKSUM: 97d5677f33f88cdf9d9785276554fdea9418d47d
 
 COCOAPODS: 1.6.1

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SVProgressHUD.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewController2 : UIViewController

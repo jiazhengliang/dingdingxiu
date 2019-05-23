@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XHToastSwift
 
 class LoginController: BaseViewController {
 
@@ -34,8 +35,7 @@ class LoginController: BaseViewController {
         image.image = UIImage.init(named: "touxiang");
         
         return image
-        
-        
+ 
     }()
     
     lazy var titleLabel:UILabel = {
@@ -91,17 +91,17 @@ class LoginController: BaseViewController {
         let image = UIView()
         image.backgroundColor = UIColor.init(r: 68, g: 77, b: 105);
         image.alpha = 0.5
-        
         return image
         
     }()
     
     lazy var loginBackgView :UIView = {
         let image = UIView()
-        
+        image.isHidden = false
         return image
-
     }()
+    
+    
     
     lazy var phonetext:UITextField = {
         
@@ -116,25 +116,196 @@ class LoginController: BaseViewController {
         return image
         
     }()
+    lazy var passWordtext:UITextField = {
+        
+        let text = UITextField()
+        text.backgroundColor = UIColor.init(r: 235, g: 240, b: 245);
+        text.placeholder = "请输入密码"
+        
+        text.clearButtonMode = .whileEditing
+        text.borderStyle = .roundedRect
+        
+        return text
+        
+    }()
     
-
+    
+    lazy var resignBackgView :UIView = {
+        let image = UIView()
+        image.isHidden = true
+        return image
+    }()
+    
+    lazy var phoneResigntext:UITextField = {
+        
+        let image = UITextField()
+        image.backgroundColor = UIColor.init(r: 235, g: 240, b: 245);
+        image.placeholder = "手机号"
+        
+        image.clearButtonMode = .whileEditing
+        image.keyboardType = UIKeyboardType.numberPad
+        image.borderStyle = .roundedRect
+        
+        return image
+        
+    }()
+    
+    lazy var passResignWordtext:UITextField = {
+        
+        let text = UITextField()
+        text.backgroundColor = UIColor.init(r: 235, g: 240, b: 245);
+        text.placeholder = "密码"
+        
+        text.clearButtonMode = .whileEditing
+        text.borderStyle = .roundedRect
+        
+        return text
+        
+    }()
+    
+    lazy var resignNiketext:UITextField = {
+        
+        let text = UITextField()
+        text.backgroundColor = UIColor.init(r: 235, g: 240, b: 245);
+        text.placeholder = "您的称呼"
+        
+        text.clearButtonMode = .whileEditing
+        text.borderStyle = .roundedRect
+        
+        return text
+        
+    }()
+    
+    
+    lazy var resignAddtext:UITextField = {
+        
+        let text = UITextField()
+        text.backgroundColor = UIColor.init(r: 235, g: 240, b: 245);
+        text.placeholder = "详细地址"
+        text.clearButtonMode = .whileEditing
+        text.borderStyle = .roundedRect
+        return text
+        
+    }()
+    
+    lazy var submitBtn:UIButton = {
+        let subBtn = UIButton()
+        subBtn.backgroundColor = UIColor.init(r: 68, g: 77, b: 105)
+        subBtn.setTitleColor(UIColor.white, for: .normal) ;
+        subBtn.layer.cornerRadius  = 5
+        subBtn.layer.masksToBounds = true
+        subBtn.titleLabel?.font = UIFont.systemFont(ofSize: 19)
+        subBtn.titleLabel?.textAlignment = .center
+        subBtn.setTitle("登录", for: .normal)
+        subBtn.isSelected = false
+        subBtn.addTarget(self, action: #selector(subBtnClick), for: .touchUpInside)
+        return subBtn
+    }()
+    
+    lazy var resignBtn:UIButton = {
+        let subBtn = UIButton()
+        subBtn.backgroundColor = UIColor.init(r: 68, g: 77, b: 105)
+        subBtn.setTitleColor(UIColor.white, for: .normal) ;
+        subBtn.layer.cornerRadius  = 5
+        subBtn.layer.masksToBounds = true
+        subBtn.titleLabel?.font = UIFont.systemFont(ofSize: 19)
+        subBtn.titleLabel?.textAlignment = .center
+        subBtn.setTitle("注册", for: .normal)
+        subBtn.isSelected = false
+        subBtn.addTarget(self, action: #selector(resignBtnClick), for: .touchUpInside)
+        return subBtn
+    }()
+    
     @objc func loginBtnClick(button: UIButton) {
-   
+        
         if button == loginLabl {
             resigLabl.isSelected = false
             loginLabl.isSelected = true
+            loginBackgView.isHidden = false
+            resignBackgView.isHidden = true
             print("点击了登录")
         } else
         {
             print("点击了注册")
-
+            loginBackgView.isHidden = true
+            resignBackgView.isHidden = false
             resigLabl.isSelected = true
             loginLabl.isSelected = false
         }
     }
-    
-    
+    //MARK: 登录
+    @objc func subBtnClick(button: UIButton) {
+   
+        let phoneString = phonetext.text
+        let passWordString = passWordtext.text
+        print("点击了登录\(phoneString!.count)==\(phoneString)")
 
+        if phoneString!.count < 10 {
+            view.showXHToastCenterWithText("请输入手机号")
+            return
+        }
+        
+        if passWordString!.count < 3 {
+            view.showXHToastCenterWithText("请输入密码")
+            return
+        }
+        print("点击了登录")
+
+        SVProgressHUD.show()
+        self.perform(#selector(loadData), with: nil, afterDelay: 1.0)
+    }
+    
+    
+    @objc func resignBtnClick(button: UIButton) {
+        
+        let phoneString = phoneResigntext.text
+        let passWordString = passResignWordtext.text
+        let nickString = resignNiketext.text
+
+        let addtring = resignAddtext.text
+
+        print("点击了登录\(phoneString!.count)==\(phoneString)")
+        
+        if phoneString!.count < 10 {
+            view.showXHToastCenterWithText("请输入手机号")
+            return
+        }
+        
+        if passWordString!.count < 3 {
+            view.showXHToastCenterWithText("请输入密码")
+            return
+        }
+        if nickString!.count < 1 {
+            view.showXHToastCenterWithText("请输入昵称")
+            return
+        }
+        if addtring!.count < 1 {
+            view.showXHToastCenterWithText("请输入地址")
+            return
+        }
+        print("点击了登录")
+        
+        SVProgressHUD.show()
+        self.perform(#selector(delayResignClick), with: nil, afterDelay: 1.0)
+    }
+    
+    
+    @objc func delayClick() {
+         SVProgressHUD.dismiss()
+         view.showXHToastCenterWithText("登录成功了")
+    }
+    
+    //MARK: 登录成功
+    @objc private func loadData()
+    {
+        ApiLoadingProvider.request(.subscribeList, model: SubscribeListModel.self) { (returnData) in
+            SVProgressHUD.dismiss()
+        }
+    }
+    @objc func delayResignClick() {
+        SVProgressHUD.dismiss()
+        view.showXHToastCenterWithText("注册成功了,等待系统审核")
+    }
     override func configUI() {
         view.addSubview(headerView)
         headerView.snp.makeConstraints {
@@ -203,19 +374,75 @@ class LoginController: BaseViewController {
             $0.top.equalToSuperview().offset(10)
             $0.left.equalToSuperview().offset(15)
             $0.right.equalToSuperview().offset(-15)
-
             $0.height.equalTo(55)
         }
-
+        
+        loginBackgView.addSubview(passWordtext)
+        
+        passWordtext.snp.makeConstraints {
+            $0.top.equalTo(phonetext.snp.bottom).offset(10)
+            $0.left.equalToSuperview().offset(15)
+            $0.right.equalToSuperview().offset(-15)
+            $0.height.equalTo(55)
+        }
+        loginBackgView.addSubview(submitBtn)
+        
+        submitBtn.snp.makeConstraints {
+            $0.bottom.equalToSuperview().offset(-10)
+            $0.left.equalToSuperview().offset(25)
+            $0.right.equalToSuperview().offset(-35)
+            $0.height.equalTo(55)
+        }
+        mainView.addSubview(resignBackgView)
+        
+        resignBackgView.snp.makeConstraints {
+            $0.top.equalTo(lineView.snp_bottom).offset(0)
+            $0.right.left.bottom.equalToSuperview()
+        }
+        
+        resignBackgView.addSubview(phoneResigntext)
+        
+        phoneResigntext.snp.makeConstraints {
+            $0.top.equalToSuperview().offset(10)
+            $0.left.equalToSuperview().offset(15)
+            $0.right.equalToSuperview().offset(-15)
+            $0.height.equalTo(55)
+        }
+        resignBackgView.addSubview(passResignWordtext)
+        
+        passResignWordtext.snp.makeConstraints {
+            $0.top.equalTo(phoneResigntext.snp.bottom).offset(10)
+            $0.left.equalToSuperview().offset(15)
+            $0.right.equalToSuperview().offset(-15)
+            $0.height.equalTo(55)
+        }
+        resignBackgView.addSubview(resignNiketext)
+        
+        resignNiketext.snp.makeConstraints {
+            $0.top.equalTo(passResignWordtext.snp.bottom).offset(10)
+            $0.left.equalToSuperview().offset(15)
+            $0.right.equalToSuperview().offset(-15)
+            $0.height.equalTo(55)
+        }
+        
+        resignBackgView.addSubview(resignAddtext)
+        
+        resignAddtext.snp.makeConstraints {
+            $0.top.equalTo(resignNiketext.snp.bottom).offset(10)
+            $0.left.equalToSuperview().offset(15)
+            $0.right.equalToSuperview().offset(-15)
+            $0.height.equalTo(55)
+        }
+        
+        resignBackgView.addSubview(resignBtn)
+        
+        resignBtn.snp.makeConstraints {
+            $0.bottom.equalToSuperview().offset(-10)
+            $0.left.equalToSuperview().offset(25)
+            $0.right.equalToSuperview().offset(-35)
+            $0.height.equalTo(55)
+        }
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

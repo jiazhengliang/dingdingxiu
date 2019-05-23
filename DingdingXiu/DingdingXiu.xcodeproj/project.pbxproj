@@ -35,6 +35,8 @@
 		DF15C3872294DD7B006AAFB8 /* UComicCFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15C3862294DD7B006AAFB8 /* UComicCFoot.swift */; };
 		DF15C3892294DDBB006AAFB8 /* UComicCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15C3882294DDBB006AAFB8 /* UComicCCell.swift */; };
 		DF15C38B229500AC006AAFB8 /* USubscibeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15C38A229500AC006AAFB8 /* USubscibeListViewController.swift */; };
+		DF1AB6E02296A5550004B340 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB6DF2296A5550004B340 /* HomeViewController.swift */; };
+		DF1AB6E22296AC470004B340 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB6E12296AC470004B340 /* HomeViewCell.swift */; };
 		DF6B8EED2293DA9A008E2698 /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B8EEC2293DA9A008E2698 /* UModel.swift */; };
 		DF6B8EEF2293DE95008E2698 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B8EEE2293DE95008E2698 /* PageViewController.swift */; };
 		DF6B8EFA2293F3A5008E2698 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B8EF12293F3A5008E2698 /* ArrayExtensions.swift */; };
@@ -110,6 +112,8 @@
 		DF15C3862294DD7B006AAFB8 /* UComicCFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCFoot.swift; sourceTree = "<group>"; };
 		DF15C3882294DDBB006AAFB8 /* UComicCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCCell.swift; sourceTree = "<group>"; };
 		DF15C38A229500AC006AAFB8 /* USubscibeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = USubscibeListViewController.swift; path = "DingdingXiu/Main/Home(主模块)/View/USubscibeListViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DF1AB6DF2296A5550004B340 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "DingdingXiu/Main/Home(主模块)/View/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DF1AB6E12296AC470004B340 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		DF6B8EEC2293DA9A008E2698 /* UModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UModel.swift; sourceTree = "<group>"; };
 		DF6B8EEE2293DE95008E2698 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DF6B8EF12293F3A5008E2698 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
@@ -316,6 +320,7 @@
 				0426F4E722942FFB0048AA0F /* URankTCell.swift */,
 				DF15C3862294DD7B006AAFB8 /* UComicCFoot.swift */,
 				DF15C3882294DDBB006AAFB8 /* UComicCCell.swift */,
+				DF1AB6E12296AC470004B340 /* HomeViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				DF15C38A229500AC006AAFB8 /* USubscibeListViewController.swift */,
+				DF1AB6DF2296A5550004B340 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -603,6 +609,7 @@
 				"${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/LLCycleScrollView/Lib/LLCycleScrollView.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
@@ -611,6 +618,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCycleScrollView.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -647,6 +655,7 @@
 				04B89B1B2290178A005B63ED /* ViewController2.m in Sources */,
 				DF15C38B229500AC006AAFB8 /* USubscibeListViewController.swift in Sources */,
 				DF6B8EEF2293DE95008E2698 /* PageViewController.swift in Sources */,
+				DF1AB6E22296AC470004B340 /* HomeViewCell.swift in Sources */,
 				04B89B2C22902D0B005B63ED /* UIBaseViewController.swift in Sources */,
 				04B89AE6228EF40B005B63ED /* AppDelegate.swift in Sources */,
 				DF6B8F0A22940369008E2698 /* UBaseCollectionReusableView.swift in Sources */,
@@ -660,6 +669,7 @@
 				04B89B4A2292DD43005B63ED /* ParallaxHeaderMode.swift in Sources */,
 				DF6B8EFC2293F3A5008E2698 /* UIViewExtension.swift in Sources */,
 				DF15C3872294DD7B006AAFB8 /* UComicCFoot.swift in Sources */,
+				DF1AB6E02296A5550004B340 /* HomeViewController.swift in Sources */,
 				DF6B8EFD2293F3A5008E2698 /* UIBarButtonItemExtension.swift in Sources */,
 				DF6B8EFB2293F3A5008E2698 /* UIColorExtension.swift in Sources */,
 				04B89B4D2292DD43005B63ED /* UNoticeBar.swift in Sources */,

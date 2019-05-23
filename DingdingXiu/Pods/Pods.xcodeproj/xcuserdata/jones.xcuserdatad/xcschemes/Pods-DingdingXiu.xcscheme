@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A858188A6301D0CB7632FEEED5D6180"
+               BlueprintIdentifier = "94059F40BAA8D2B14339FCC779B04446"
                BuildableName = "libPods-DingdingXiu.a"
                BlueprintName = "Pods-DingdingXiu"
                ReferencedContainer = "container:Pods.xcodeproj">
