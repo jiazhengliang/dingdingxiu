@@ -31,8 +31,23 @@ extension NSNotification.Name {
     static let USexTypeDidChange = NSNotification.Name("USexTypeDidChange")
 }
 
+
+
 let screenWidth = UIScreen.main.bounds.width
 let screenHeight = UIScreen.main.bounds.height
+
+let statusBarHeight = UIApplication.shared.statusBarFrame.height;
+let navigationHeight = (statusBarHeight + 44)
+
+let tabBarHeight = (statusBarHeight == 44 ? 83 : 49)
+
+func isIPhoneXType() -> Bool {
+    guard #available(iOS 11.0, *) else {
+        return false
+    }
+    return UIApplication.shared.windows[0].safeAreaInsets != UIEdgeInsets.zero
+}
+
 
 var topVC: UIViewController? {
     var resultVC: UIViewController?

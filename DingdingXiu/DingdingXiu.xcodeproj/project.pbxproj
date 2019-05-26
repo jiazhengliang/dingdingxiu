@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426F4E722942FFB0048AA0F /* URankTCell.swift */; };
 		0426FA8622958CF4008A7CE5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA8522958CF4008A7CE5 /* LoginController.swift */; };
+		0426FA882298DE92008A7CE5 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA872298DE92008A7CE5 /* MineViewController.swift */; };
+		0426FA8A2298E24B008A7CE5 /* MineTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA892298E24B008A7CE5 /* MineTabCell.swift */; };
+		0426FA8C2299130E008A7CE5 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA8B2299130E008A7CE5 /* ModelViewController.swift */; };
+		0426FA8E22991F34008A7CE5 /* JXPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA8D22991F34008A7CE5 /* JXPopupView.swift */; };
+		0426FA9022991FF5008A7CE5 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA8F22991FF5008A7CE5 /* AlertView.swift */; };
+		0426FA9222998664008A7CE5 /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA9122998664008A7CE5 /* OnlineViewController.swift */; };
+		0426FA96229A1AFE008A7CE5 /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA93229A1AFE008A7CE5 /* CommonHelper.swift */; };
+		0426FA97229A1AFE008A7CE5 /* EWDataPickerPresentAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA94229A1AFE008A7CE5 /* EWDataPickerPresentAnimated.swift */; };
+		0426FA98229A1AFE008A7CE5 /* EWDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA95229A1AFE008A7CE5 /* EWDatePickerViewController.swift */; };
+		0426FA9A229A2ED1008A7CE5 /* DingDanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA99229A2ED1008A7CE5 /* DingDanController.swift */; };
+		0426FA9C229A2FD3008A7CE5 /* DingdanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426FA9B229A2FD3008A7CE5 /* DingdanCell.swift */; };
 		04B89AE6228EF40B005B63ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE5228EF40B005B63ED /* AppDelegate.swift */; };
 		04B89AE8228EF40B005B63ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89AE7228EF40B005B63ED /* ViewController.swift */; };
 		04B89AED228EF40C005B63ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B89AEC228EF40C005B63ED /* Assets.xcassets */; };
@@ -76,6 +87,17 @@
 /* Begin PBXFileReference section */
 		0426F4E722942FFB0048AA0F /* URankTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankTCell.swift; sourceTree = "<group>"; };
 		0426FA8522958CF4008A7CE5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0426FA872298DE92008A7CE5 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		0426FA892298E24B008A7CE5 /* MineTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTabCell.swift; sourceTree = "<group>"; };
+		0426FA8B2299130E008A7CE5 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		0426FA8D22991F34008A7CE5 /* JXPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPopupView.swift; sourceTree = "<group>"; };
+		0426FA8F22991FF5008A7CE5 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		0426FA9122998664008A7CE5 /* OnlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
+		0426FA93229A1AFE008A7CE5 /* CommonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		0426FA94229A1AFE008A7CE5 /* EWDataPickerPresentAnimated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EWDataPickerPresentAnimated.swift; sourceTree = "<group>"; };
+		0426FA95229A1AFE008A7CE5 /* EWDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EWDatePickerViewController.swift; sourceTree = "<group>"; };
+		0426FA99229A2ED1008A7CE5 /* DingDanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDanController.swift; sourceTree = "<group>"; };
+		0426FA9B229A2FD3008A7CE5 /* DingdanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdanCell.swift; sourceTree = "<group>"; };
 		04B89AE2228EF40B005B63ED /* DingdingXiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingdingXiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B89AE5228EF40B005B63ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B89AE7228EF40B005B63ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +302,9 @@
 		04B89B2322902BBA005B63ED /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				0426FA93229A1AFE008A7CE5 /* CommonHelper.swift */,
+				0426FA94229A1AFE008A7CE5 /* EWDataPickerPresentAnimated.swift */,
+				0426FA95229A1AFE008A7CE5 /* EWDatePickerViewController.swift */,
 				DF6B8EF02293F3A5008E2698 /* Extension */,
 				04B89B352292DD43005B63ED /* Component */,
 			);
@@ -309,6 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				04B89B13228F13D7005B63ED /* Global.swift */,
+				0426FA8D22991F34008A7CE5 /* JXPopupView.swift */,
 			);
 			path = CommTools;
 			sourceTree = "<group>";
@@ -321,6 +347,9 @@
 				DF15C3862294DD7B006AAFB8 /* UComicCFoot.swift */,
 				DF15C3882294DDBB006AAFB8 /* UComicCCell.swift */,
 				DF1AB6E12296AC470004B340 /* HomeViewCell.swift */,
+				0426FA892298E24B008A7CE5 /* MineTabCell.swift */,
+				0426FA9B229A2FD3008A7CE5 /* DingdanCell.swift */,
+				0426FA8F22991FF5008A7CE5 /* AlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -330,6 +359,10 @@
 			children = (
 				DF15C38A229500AC006AAFB8 /* USubscibeListViewController.swift */,
 				DF1AB6DF2296A5550004B340 /* HomeViewController.swift */,
+				0426FA8B2299130E008A7CE5 /* ModelViewController.swift */,
+				0426FA872298DE92008A7CE5 /* MineViewController.swift */,
+				0426FA9122998664008A7CE5 /* OnlineViewController.swift */,
+				0426FA99229A2ED1008A7CE5 /* DingDanController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -632,6 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0426FA9C229A2FD3008A7CE5 /* DingdanCell.swift in Sources */,
 				DF6B8F0C229403D8008E2698 /* UBaseTableViewCell.swift in Sources */,
 				DF6B8F042293F62B008E2698 /* BaseWebViewController.swift in Sources */,
 				DF6B8EFE2293F3A5008E2698 /* UIDeviceExtension.swift in Sources */,
@@ -641,16 +675,19 @@
 				DF6B8F062293FF1C008E2698 /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				04B89AE8228EF40B005B63ED /* ViewController.swift in Sources */,
 				04B89B17229015EB005B63ED /* BaseViewController.swift in Sources */,
+				0426FA9222998664008A7CE5 /* OnlineViewController.swift in Sources */,
 				04B89B4B2292DD43005B63ED /* UIScrollView+ParallaxHeader.swift in Sources */,
 				DF6B8EFF2293F3A5008E2698 /* UIImageExtensions.swift in Sources */,
 				04B89B452292DD43005B63ED /* UCollectionViewAlignedLayout.swift in Sources */,
 				04B89B482292DD43005B63ED /* UEmptyDataSet.swift in Sources */,
+				0426FA882298DE92008A7CE5 /* MineViewController.swift in Sources */,
 				DF6B8F012293F3A5008E2698 /* StringExtension.swift in Sources */,
 				DF6B8F0E2294058D008E2698 /* UComicCHead.swift in Sources */,
 				DF6B8EED2293DA9A008E2698 /* UModel.swift in Sources */,
 				04B89B462292DD43005B63ED /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
 				04B89B492292DD43005B63ED /* UHairPowder.swift in Sources */,
 				DF6B8F082293FFC0008E2698 /* UBaseCollectionViewCell.swift in Sources */,
+				0426FA8A2298E24B008A7CE5 /* MineTabCell.swift in Sources */,
 				04B89B472292DD43005B63ED /* URefresh.swift in Sources */,
 				04B89B1B2290178A005B63ED /* ViewController2.m in Sources */,
 				DF15C38B229500AC006AAFB8 /* USubscibeListViewController.swift in Sources */,
@@ -661,19 +698,26 @@
 				DF6B8F0A22940369008E2698 /* UBaseCollectionReusableView.swift in Sources */,
 				04B89B512292FE24005B63ED /* UAPI.swift in Sources */,
 				DF6B8F002293F3A5008E2698 /* DispatchQueueExtension.swift in Sources */,
+				0426FA8E22991F34008A7CE5 /* JXPopupView.swift in Sources */,
 				04B89B1E22902751005B63ED /* TabBarViewController.swift in Sources */,
 				0426FA8622958CF4008A7CE5 /* LoginController.swift in Sources */,
+				0426FA9A229A2ED1008A7CE5 /* DingDanController.swift in Sources */,
 				DF6B8EFA2293F3A5008E2698 /* ArrayExtensions.swift in Sources */,
 				0426F4E822942FFB0048AA0F /* URankTCell.swift in Sources */,
+				0426FA98229A1AFE008A7CE5 /* EWDatePickerViewController.swift in Sources */,
 				04B89B4C2292DD43005B63ED /* ParallaxHeader.swift in Sources */,
 				04B89B4A2292DD43005B63ED /* ParallaxHeaderMode.swift in Sources */,
+				0426FA9022991FF5008A7CE5 /* AlertView.swift in Sources */,
 				DF6B8EFC2293F3A5008E2698 /* UIViewExtension.swift in Sources */,
+				0426FA8C2299130E008A7CE5 /* ModelViewController.swift in Sources */,
 				DF15C3872294DD7B006AAFB8 /* UComicCFoot.swift in Sources */,
 				DF1AB6E02296A5550004B340 /* HomeViewController.swift in Sources */,
 				DF6B8EFD2293F3A5008E2698 /* UIBarButtonItemExtension.swift in Sources */,
 				DF6B8EFB2293F3A5008E2698 /* UIColorExtension.swift in Sources */,
+				0426FA97229A1AFE008A7CE5 /* EWDataPickerPresentAnimated.swift in Sources */,
 				04B89B4D2292DD43005B63ED /* UNoticeBar.swift in Sources */,
 				04B89B14228F13D8005B63ED /* Global.swift in Sources */,
+				0426FA96229A1AFE008A7CE5 /* CommonHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +885,7 @@
 			baseConfigurationReference = 8E8120384CEB42F212776A35 /* Pods-DingdingXiu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDY9P9U7PJ;
@@ -864,6 +909,7 @@
 			baseConfigurationReference = DBEB39C19E86CEF760837EDD /* Pods-DingdingXiu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDY9P9U7PJ;

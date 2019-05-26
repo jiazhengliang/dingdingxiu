@@ -20,6 +20,17 @@ struct ImageModel: HandyJSON {
     var img50: String?
 }
 
+struct DingDanModel: HandyJSON {
+    var people: String?
+    var iphoneNum: String?
+    var address: String?
+    var isBaoxiu: String?
+    var time: String?
+    var content: String?
+    var type:  String?
+}
+
+
 struct ChapterModel: HandyJSON {
     var status: Int = 0
     var chapter_id: Int = 0
